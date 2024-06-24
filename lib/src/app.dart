@@ -10,7 +10,7 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.dark,
       darkTheme: ThemeData.from(
           colorScheme: ColorScheme.fromSeed(
-              seedColor: Color.fromARGB(255, 49, 30, 195),
+              seedColor: const Color.fromARGB(255, 49, 30, 195),
               brightness: Brightness.dark)),
       home: const GoldScreen(),
     );
